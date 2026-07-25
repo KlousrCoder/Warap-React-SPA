@@ -1,0 +1,1 @@
+GRANT EXECUTE ON FUNCTION public.provider_is_visible(uuid) TO anon, authenticated;

@@ -1,0 +1,14 @@
+{
+	"appId": "com.warap.connect",
+	"appName": "Warap",
+	"webDir": "public/mobile",
+	"server": {
+		"url": "https://warap-development-git-develop-twentyfivelloyds-projects.vercel.app",
+		"cleartext": false
+	},
+	"plugins": {
+		"App": {
+			"appUrlOpen": true
+		}
+	}
+}

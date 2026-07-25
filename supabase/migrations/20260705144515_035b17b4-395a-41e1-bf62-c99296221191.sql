@@ -1,0 +1,1 @@
+UPDATE public.profiles SET kyc_status='valid', visibility_status='active', visibility_until = now() + interval '1 year' WHERE id IN (SELECT DISTINCT user_id FROM public.services);
